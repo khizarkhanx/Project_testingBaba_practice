@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name='testing_baba'>
+  <test name="loginTest" enabled = "false">
+    <classes>
+      <class name="testingbaba_test.Logintest"/>
+     
+    </classes>
+  </test > 
+  <test name="TextBoxTest" enabled = "false">
+  <classes>
+  
+   <class name="testingbaba_test.text_box_test"/>
+  
+  </classes>
+  </test>
+  
+  <test name="Checkbox" enabled = "false">
+  <classes>
+  <class name="testingbaba_test.check_box_test"/>
+  </classes>
+  </test>
+  
+  <test name="radiobtn" enabled = "false">
+  <classes>
+  <class name="testingbaba_test.radio_button_test"/>
+  </classes>
+  </test>
+  
+  <test name = "webtable" enabled = "false">
+  <classes>
+  <class name="testingbaba_test.Table_test"></class>
+  </classes>
+  </test>
+  
+  <test name = "buttons" enabled = "false">
+  <classes>
+  <class name="testingbaba_test.Buttons_test"></class>
+  </classes>
+  </test>
+</suite> <!-- Suite -->
